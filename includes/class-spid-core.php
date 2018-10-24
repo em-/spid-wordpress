@@ -37,7 +37,7 @@ class SPID_Core {
 		$base = get_home_url();
 
 		// Path to key and crt file.
-		$home = '';
+		$home = 'spid-conf';
 
 		// The following are mandatory attributes for any WordPress install of the plugin.
 		update_option( 'sp_spidCode', 'on' );
