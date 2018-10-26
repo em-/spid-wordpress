@@ -1,0 +1,66 @@
+version: "3"
+
+services:
+  idp:
+    image: "italia/spid-testenv2"
+    ports:
+      - 8088:8088
+    volumes:
+      - "./docker/idp_conf:/app/conf"
+    networks:
+      - "idp"
+
+  db:
+    image: "mariadb:latest"
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_DATABASE: "wordpress"
+      MYSQL_ROOT_PASSWORD: ""
+    networks:
+      - "back"
+    volumes:
+      - "dbdata:/var/lib/mysql:rw"
+
+  wordpress:
+    image: "wordpress:${WP_VERSION:-latest}"
+    environment:
+      WORDPRESS_DB_HOST: "db"
+      WORDPRESS_DB_NAME: "wordpress"
+      WORDPRESS_DB_PASSWORD: ""
+      WORDPRESS_DB_USER: "root"
+    depends_on:
+      - "db"
+    networks:
+      - "front"
+      - "back"
+      - "idp"
+    ports:
+      - 80:80
+    volumes:
+      - "./docker/sp_conf/idp_metadata:/idp_metadata:rw"
+      - "./docker/sp_conf/wp.crt:/wp.crt:ro"
+      - "./docker/sp_conf/wp.key:/wp.key:ro"
+      - "wproot:/var/www/html:rw"
+      - ".:/var/www/html/wp-content/plugins/spid-wordpress:ro"
+
+  wp-cli:
+    image: "wordpress:cli"
+    user: "33" # match www-data on the wordpress image
+    command:
+      - "--info"
+    depends_on:
+      - "wordpress"
+    networks:
+      - "back"
+    volumes:
+      - "wproot:/var/www/html:rw"
+      - ".:/var/www/html/wp-content/plugins/spid-wordpress:ro"
+
+networks:
+  front: {}
+  back: {}
+  idp: {}
+
+volumes:
+  wproot: {}
+  dbdata: {}

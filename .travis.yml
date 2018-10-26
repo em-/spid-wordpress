@@ -1,0 +1,19 @@
+language: php
+
+php:
+  - 7.0.30
+
+sudo: required
+
+services:
+  - docker
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+install:
+  - make -f docker/Makefile up
+
+before_script:
+  - wget --spider --timeout=15 --retry-connrefused "http://localhost"

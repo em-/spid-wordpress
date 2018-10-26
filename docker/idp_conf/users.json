@@ -1,0 +1,152 @@
+{
+    "jolegentile": {
+        "attrs": {
+            "companyName": "Costa Group",
+            "email": "santororomeo@montanari-basile.it",
+            "name": "Joannes",
+            "dateOfBirth": "2004-05-05",
+            "fiscalNumber": "TINIT-PPHXAQ56B89L694E",
+            "spidCode": "3e74d32b-e15a-2a77-07c5-51781ca558fe",
+            "registeredOffice": "Incrocio Valentini 3\nSettimo Romolo, 41644 Taranto (NO)",
+            "familyName": "Ferrari",
+            "gender": "M"
+        },
+        "pwd": "test",
+        "sp": null
+    },
+    "clodoveapellegrini": {
+        "attrs": {
+            "companyName": "Barbieri SPA",
+            "email": "jmorelli@de.net",
+            "name": "Bettino",
+            "dateOfBirth": "2009-10-14",
+            "fiscalNumber": "TINIT-ZSXFNG73L77S803S",
+            "spidCode": "bc1819f4-bd3b-b35c-855d-514f4b8d3e48",
+            "registeredOffice": "Viale Germano 782 Appartamento 89\nJoey a mare, 08810 Rimini (CZ)",
+            "familyName": "Battaglia",
+            "gender": "M"
+        },
+        "pwd": "test",
+        "sp": null
+    },
+    "domiziano95": {
+        "attrs": {
+            "companyName": "Russo-Farina e figli",
+            "email": "demi77@valentini.it",
+            "name": "Irene",
+            "dateOfBirth": "1976-02-01",
+            "fiscalNumber": "TINIT-DYEEZD48G48O496M",
+            "spidCode": "3d49f03f-c85f-475f-82f4-baf921ad3cfb",
+            "registeredOffice": "Strada Parisi 83 Piano 2\nRossetti nell'emilia, 60227 Siracusa (TN)",
+            "familyName": "Bianchi",
+            "gender": "F"
+        },
+        "pwd": "test",
+        "sp": null
+    },
+    "jaride-angelis": {
+        "attrs": {
+            "companyName": "Guerra, Ruggiero e Marini s.r.l.",
+            "email": "demi59@ferraro-caruso.it",
+            "name": "Edipo",
+            "dateOfBirth": "1980-01-18",
+            "fiscalNumber": "TINIT-TZCCIK99I35N287V",
+            "spidCode": "c0a3a2ef-4712-3b6f-8a34-ec17bac08ef2",
+            "registeredOffice": "Piazza Monti 00 Piano 3\nRosalba salentino, 00824 Brescia (CL)",
+            "familyName": "Silvestri",
+            "gender": "F"
+        },
+        "pwd": "test",
+        "sp": null
+    },
+    "hruggiero": {
+        "attrs": {
+            "companyName": "Costa SPA",
+            "email": "naomivilla@hotmail.it",
+            "name": "Vinicio",
+            "dateOfBirth": "2002-02-13",
+            "fiscalNumber": "TINIT-AGSZVN40W02S309C",
+            "spidCode": "1f4303e9-65e0-9904-a3f3-ef1a00f36159",
+            "registeredOffice": "Strada Jack 420 Piano 9\nParisi umbro, 24285 Imperia (PR)",
+            "familyName": "Sartori",
+            "gender": "F"
+        },
+        "pwd": "test",
+        "sp": null
+    },
+    "sartorinazzareno": {
+        "attrs": {
+            "companyName": "Parisi, Cattaneo e Bianco SPA",
+            "email": "quarto86@gentile-bernardi.it",
+            "name": "Elga",
+            "dateOfBirth": "2002-01-18",
+            "fiscalNumber": "TINIT-FPKXZV23C21K010D",
+            "spidCode": "c94b96b3-dc60-9ff2-5880-6d5ffd8ecabf",
+            "registeredOffice": "Viale Oreste 6 Piano 3\nAdriano veneto, 71506 Biella (RM)",
+            "familyName": "Vitali",
+            "gender": "F"
+        },
+        "pwd": "test",
+        "sp": null
+    },
+    "fabiano32": {
+        "attrs": {
+            "companyName": "D'angelo SPA",
+            "email": "fferretti@gmail.com",
+            "name": "Renato",
+            "dateOfBirth": "1998-05-16",
+            "fiscalNumber": "TINIT-FIANFT22E21R843F",
+            "spidCode": "7c7b00b9-48fc-5c5b-ba6e-a5edd39224d3",
+            "registeredOffice": "Via Ariel 3\nSettimo Modesto, 03810 Rimini (RN)",
+            "familyName": "Bruno",
+            "gender": "F"
+        },
+        "pwd": "test",
+        "sp": null
+    },
+    "test": {
+        "attrs": {
+            "companyName": "Martinelli, Martini e Longo s.r.l.",
+            "email": "armando18@tele2.it",
+            "name": "Romolo",
+            "dateOfBirth": "1973-04-07",
+            "fiscalNumber": "TINIT-IDOSKW76T67C222B",
+            "spidCode": "e8d3f4af-da4f-f3c3-75fd-b93a75a6b0b0",
+            "registeredOffice": "Viale Ferri 1\nQuarto Cassiopea, 93549 Olbia-Tempio (TV)",
+            "familyName": "Esposito",
+            "gender": "M"
+        },
+        "pwd": "test",
+        "sp": null
+    },
+    "fiorealighieri": {
+        "attrs": {
+            "companyName": "Sorrentino-Marini Group",
+            "email": "zrossi@ricci.it",
+            "name": "Giobbe",
+            "dateOfBirth": "2008-12-25",
+            "fiscalNumber": "TINIT-HXQSVV82E56F684V",
+            "spidCode": "37720f1f-bed0-eee8-1fc2-184774d50a62",
+            "registeredOffice": "Vicolo Bacchisio 429 Appartamento 49\nRuth umbro, 83265 Pavia (LO)",
+            "familyName": "Parisi",
+            "gender": "M"
+        },
+        "pwd": "test",
+        "sp": null
+    },
+    "luce66": {
+        "attrs": {
+            "companyName": "Greco-Benedetti e figli",
+            "email": "sbarone@libero.it",
+            "name": "Moreno",
+            "dateOfBirth": "2005-04-16",
+            "fiscalNumber": "TINIT-MVAGHT39P55F669P",
+            "spidCode": "1797e59e-b030-bf6e-a8df-afac3d3ed697",
+            "registeredOffice": "Incrocio Coppola 157 Piano 6\nNabil nell'emilia, 93054 Livorno (RG)",
+            "familyName": "Silvestri",
+            "gender": "M"
+        },
+        "pwd": "test",
+        "sp": null
+    }
+}
